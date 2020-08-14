@@ -1,0 +1,23 @@
+.intro__text {
+  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

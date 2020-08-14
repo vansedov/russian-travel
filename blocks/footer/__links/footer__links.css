@@ -1,0 +1,23 @@
+.footer__links {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    
+
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 16px;
+        margin-top: 64px;
+        margin-bottom: 48px;
+        
+    }
+}

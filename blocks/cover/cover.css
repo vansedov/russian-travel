@@ -1,0 +1,12 @@
+.cover {
+   max-width: 1184px;
+   margin: 92px auto 0;
+   position: relative;
+   
+}
+
+@media screen and (max-width: 320px) {
+   .cover {
+      margin-top: 64px;
+   }
+}
