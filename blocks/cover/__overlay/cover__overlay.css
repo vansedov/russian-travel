@@ -1,8 +1,0 @@
-.cover__overlay {
-    max-width: 1184px;
-    min-height: 740px;
-}
-
-.cover__overlay:hover {
-    opacity: .5;
-}

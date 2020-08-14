@@ -10,19 +10,6 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
-  .lead__title {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0 auto;
-  }
-}
-
 @media screen and (max-width: 425px) {
   .lead__title {
     font-size: 60px;
