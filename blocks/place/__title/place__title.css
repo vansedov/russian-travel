@@ -6,7 +6,6 @@
   line-height: 76px;
   color: #FFFFFF;
   max-width: 460px;
-  outline: 1px solid red;
   margin: 0;
 }
 
@@ -24,7 +23,7 @@
     min-width: 340px;
     font-size: 42px;
     line-height: 110%;
-    margin-top: 0;
+    margin: 0 auto;
     display: flex;
     align-self: flex-end;
   }
@@ -32,7 +31,8 @@
 
 @media screen and (max-width: 425px) {
   .place__title {
-    max-width: 400px;
+    min-width: 288px;
+    margin: 0 auto;
   }
 }
 
@@ -41,7 +41,7 @@
     min-width: 288px;
     font-size: 32px;
     line-height: 35px;
-    
+    margin: 0 auto;
     
   }
 }
